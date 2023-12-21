@@ -1,37 +1,51 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Únete a Shangri-La en Minecraft</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             text-align: center;
             margin-top: 50px;
+            background-color: #e9f5f5;
+            color: #333;
+        }
+        .header {
+            background-image: url('https://scontent-dus1-1.xx.fbcdn.net/v/t39.30808-6/410969312_122107152440147897_2693502590560397421_n.png?_nc_cat=105&ccb=1-7&_nc_sid=783fdb&_nc_ohc=OWhOeU1Kh6wAX8DJRBo&_nc_ht=scontent-dus1-1.xx&oh=00_AfArFsYnvfEp7dmkfDjVT0gOTUTlOXB-9jHwfKkQI27v6Q&oe=65889A09'); /* Cambia con una imagen de fondo adecuada */
+            background-size: cover;
+            padding: 50px 0;
+        }
+        .header h1 {
+            color: white;
+            font-size: 2.5em;
         }
         .minecraft-link {
             display: inline-block;
             background-color: #4CAF50;
             color: white;
-            padding: 10px 20px;
+            padding: 15px 30px;
             text-decoration: none;
-            border-radius: 5px;
-            font-size: 18px;
-            cursor: pointer;
+            border-radius: 8px;
+            font-size: 20px;
+            transition: background-color 0.3s;
         }
         .minecraft-link:hover {
             background-color: #45a049;
         }
         .info {
             margin-top: 20px;
-            font-size: 14px;
+            font-size: 16px;
         }
     </style>
 </head>
 <body>
-    <h1>¡Bienvenido a Shangri-La!</h1>
+    <div class="header">
+        <h1>🌄 ¡Bienvenido a Shangri-La! 🌄</h1>
+    </div>
     <p>Haz clic en el botón de abajo para añadir Shangri-La a tu lista de servidores en Minecraft.</p>
-    <a href="minecraft://?addExternalServer=Shangri-La|mc.shangrila.ovh:25581" class="minecraft-link">Únete a Shangri-La</a>
+    <a href="minecraft://?addExternalServer=Shangri-La|mc.shangrila.ovh:25581" class="minecraft-link">🔗 Únete a Shangri-La</a>
     <div class="info">
         <p>Al hacer clic en "Únete a Shangri-La", Minecraft se abrirá automáticamente y añadirá Shangri-La a tu lista de servidores.</p>
         <p>Si tienes problemas para conectarte, asegúrate de que Minecraft esté instalado en tu dispositivo y que estés permitiendo la apertura de enlaces externos.</p>
